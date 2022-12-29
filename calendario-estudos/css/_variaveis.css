@@ -1,0 +1,12 @@
+:root {
+    --cor-fundo: #2B303A;
+    --cor-fonte: #93A3B1;
+    --cor-fonte-secundaria: #FFEFBD;
+    --cor-titulo: #7C898B;
+    --cor-prioritario: #e36347;
+    --cor-opcional: #3a9e6b;
+    --borda-tabela: #FFFACC;
+
+    --fonte-titulo: 'Oswald', sans-serif;
+    --fonte-padrao: 'Poppins', sans-serif;
+}

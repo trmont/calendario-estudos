@@ -1,0 +1,75 @@
+@import url(_variaveis.css);
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+    font-family: var(--fonte-padrao);
+}
+
+table, tbody, tr, td {
+    border: solid 1px var(--borda-tabela);
+    padding: 1rem;
+}
+
+td:first-child {
+    font-weight: 800;
+}
+
+.titulo {
+    color: var(--cor-titulo);
+    font-family: var(--fonte-titulo);
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.tabela {
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+.legenda {
+    margin-left: 1.5rem;
+}
+
+.legenda__titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.legenda__wrapper {
+    display: flex;
+    margin-bottom: .7rem;
+}
+
+.legenda__prioritario {
+    background-color: var(--cor-prioritario);
+    height: 20px;
+    margin-right: .2rem;
+    width: 40px;
+}
+
+.legenda__opcional {
+    background-color: var(--cor-opcional);
+    height: 20px;
+    margin-right: .3rem;
+    width: 40px;
+}
+
+.tabela__prioritario:hover {
+    background-color: var(--cor-prioritario);
+    color: var(--cor-fonte-secundaria);
+    transition: .20s ease-in;
+}
+
+.tabela__opcional:hover {
+    background-color: var(--cor-opcional);
+    color: var(--cor-fonte-secundaria);
+    transition: .20s ease-in;
+}

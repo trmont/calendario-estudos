@@ -1,0 +1,7 @@
+
+fundo: #2B303A
+fonte: #93A3B1
+fonte secundária: #FFEFBD
+titulo: #7C898B
+borda-tabela: #FFFACC
+
